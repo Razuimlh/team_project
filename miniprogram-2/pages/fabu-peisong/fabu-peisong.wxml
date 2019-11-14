@@ -1,0 +1,84 @@
+<!--pages/fabu-peisong/fabu-peisong.wxml-->
+<view class="fabu-peisong">
+  <!-- 填写订单信息 -->
+  <view class="page-peisong">
+    <view class="page-section">
+      <view class="pei-song__title">设置配送费：</view>
+      <view class="pei-song pei-song_after-title">
+        <view class="pei-song pei-song_input">
+          <input class="pei-song-input" placeholder=" " />
+          <view class="line"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <view class="page-peisong">
+    <view class="page-section">
+      <text>\n</text>
+      <view class="pei-song__title">预计配送时间：</view>
+      <view class="pei-song pei-song_after-title">
+        <view class="pei-song pei-song_input">
+          <input class="pei-song-input" placeholder=" " />
+          <view class="line"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <view class="page-peisong">
+    <view class="page-section">
+      <text>\n</text>
+      <view class="pei-song__title">取消订单时间：</view>
+      <view class="pei-song pei-song_after-title">
+        <view class="pei-song pei-song_input">
+          <input class="pei-song-input" placeholder=" " />
+          <view class="line"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <view class="page-peisong">
+    <view class="page-section">
+      <text>\n</text>
+      <view class="pei-song__title">食堂：</view>
+      <view class="pei-song pei-song_after-title">
+        <view class="pei-song pei-song_input">
+          <input class="pei-song-input" type="text" placeholder=" " />
+          <view class="line"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <view class="page-peisong">
+    <view class="page-section">
+      <text>\n</text>
+      <view class="pei-song__title">配送范围：</view>
+      <view class="pei-song pei-song_after-title">
+        <view class="pei-song pei-song_input">
+          <input class="pei-song-input1" type="number" placeholder=" " />
+          <view class="line"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-peisong">
+    <view class="page-section">
+      <text>\n</text>
+      <view class="pei-song__title">备注：</view>
+      <view class="pei-song pei-song_after-title">
+        <view class="pei-song pei-song_input">
+          <input id="remarks" placeholder=" " />
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view>
+    <button class="btn" bindtap="submit" hover-class="btn_hover">确认订单</button>
+    <text>\n\n</text>
+  </view>
+</view>

@@ -1,0 +1,86 @@
+<!--pages/fabu-diandan/fabu-diandan.wxml-->
+<view class="fabu-diandan">
+  <!-- 填写订单信息 -->
+  <view class="page-diandan">
+    <view class="page-section">
+      <view class="dian-dan__title">设置配送费：</view>
+      <view class="dian-dan dian-dan_after-title">
+        <view class="dian-dan dian-dan_input">
+          <input class="dian-dan-input" placeholder=" " />
+          <view class="line"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <view class="page-diandan">
+    <view class="page-section">
+      <text>\n</text>
+      <view class="dian-dan__title">预计送达时间：</view>
+      <view class="dian-dan dian-dan_after-title">
+        <view class="dian-dan dian-dan_input">
+          <input class="dian-dan-input" placeholder=" " />
+          <view class="line"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <view class="page-diandan">
+    <view class="page-section">
+      <text>\n</text>
+      <view class="dian-dan__title">取消订单时间：</view>
+      <view class="dian-dan dian-dan_after-title">
+        <view class="dian-dan dian-dan_input">
+          <input class="dian-dan-input" placeholder=" " />
+          <view class="line"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <view class="page-diandan">
+    <view class="page-section">
+      <text>\n</text>
+      <view class="dian-dan__title">食堂：</view>
+      <view class="dian-dan dian-dan_after-title">
+        <view class="dian-dan dian-dan_input">
+          <input class="dian-dan-input" type="text" placeholder=" " />
+          <view class="line"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <view class="page-diandan">
+    <view class="page-section">
+      <text>\n</text>
+      <view class="dian-dan__title">配送地址：</view>
+      <view class="dian-dan dian-dan_after-title">
+        <view class="dian-dan dian-dan_input">
+          <input class="dian-dan-input1" type="number" placeholder=" " />
+          <view class="line"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+
+  <view class="page-diandan">
+    <view class="page-section">
+      <text>\n</text>
+      <view class="dian-dan__title">要求：</view>
+      <view class="dian-dan dian-dan_after-title">
+        <view class="dian-dan dian-dan_input">
+          <input id="require" placeholder=" " />
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view>
+    <button class="btn" bindtap="submit" hover-class="btn_hover">确认订单</button>
+    <text>\n\n</text>
+  </view>
+</view>

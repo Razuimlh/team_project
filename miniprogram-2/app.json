@@ -1,8 +1,13 @@
 {
   "pages": [
-    "pages/home/home",
-    "pages/myInformation/myInformation",
-    "pages/order/order",
+    "pages/xinxitianxie/xinxitianxie",
+    "pages/fabu-peisong/fabu-peisong",
+    "pages/fabu-diandan/fabu-diandan",
+    
+    "pages/xiugai-peisong/xiugai-peisong",
+    "pages/xiugai-diandan/xiugai-diandan",
+    
+    
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -12,6 +17,5 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap38.json"
 }

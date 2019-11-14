@@ -1,0 +1,86 @@
+/* pages/fabu-peisong/fabu-peisong.wxss */
+.pei-song__title {
+  position: relative;
+  top: 1rpx;
+  color: #808080;
+  font-size: 32rpx;
+}
+
+.page-peisong {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pei-song-input{
+  margin-bottom: 50rpx;
+  margin-top: 20rpx;
+  border-style: solid;
+  border-color: #808080;
+  border-width: 3rpx;
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+  font-size: 32rpx;
+}
+.pei-song-input1{
+  margin-bottom: 50rpx;
+  margin-top: 20rpx;
+  border-style: solid;
+  border-color: #808080;
+  border-width: 3rpx;
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+  font-size: 32rpx;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60rpx;
+  background: #FFD700;
+  color: black;
+  height: 25px;
+  width: 200px;
+  font-size: 32rpx;
+}
+.btn::after {
+  border: 0;
+}
+.btn_hover {
+  background-color: #f0ca00;
+}
+
+#addlou {
+  border: solid #000 1rpx;
+  border-radius: 15rpx;
+  width: 200rpx;
+  text-align: left;
+  margin-left: 100rpx;
+}
+#addsushe {
+  border: solid #000 1rpx;
+  border-radius: 15rpx;
+  width: 200rpx;
+  text-align: left;
+  margin-left: 100rpx;
+}
+
+.line {
+  width: 100%;
+  border: solid #e0e3da 2rpx;
+  display: flex;
+  justify-content: center;
+}
+#remarks {
+  margin-bottom: 50rpx;
+  margin-top: 20rpx;
+  border-style: solid;
+  border-color: #808080;
+  border-width: 3rpx;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  font-size: 32rpx;
+}
